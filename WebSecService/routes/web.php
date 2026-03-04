@@ -2,8 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::view('/', 'home');
-Route::view('/even', 'even');
-Route::view('/prime', 'prime');
-Route::view('/multable', 'multable');
-;
+Route::view('/', 'layouts.home');
+Route::view('/even', 'layouts.even');
+Route::view('/prime', 'layouts.prime');
+Route::view('/multable', 'layouts.multable');
